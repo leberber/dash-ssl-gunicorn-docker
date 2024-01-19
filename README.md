@@ -4,6 +4,9 @@
 sudo certbot certonly --standalone -d example.com -d www.example.com
 ```
 ####  2. Clone This repo
+```
+git clone https://github.com/leberber/dash-ssl-gunicorn-docker.git
+```
 ####  3. Build an image
 ```
 docker build  -t my_dash_image .
